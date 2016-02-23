@@ -1,0 +1,29 @@
+.wrapper {
+  // background: #F4F4F4;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center 16%;
+}
+
+.card {
+  // text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  // background-size: cover !important;
+  // color: white;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  // box-shadow: 0px 0px 0px 3px rgba(219,210,219,0.75);
+  // box-shadow: 0px 0px 0px 3px rgba(219,210,219,0.75);
+  // box-shadow: 0px 0px 0px 3px rgba(219,210,219,0.75);
+
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+
+.fa-ul {
+  display: inline-block;
+}

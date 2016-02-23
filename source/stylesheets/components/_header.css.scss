@@ -1,0 +1,41 @@
+/* Your profile header CSS code here */
+.profile-header-wrapper {
+  padding-top: 13px;
+  background: black;
+  position: relative;
+}
+
+.profile-header-infos {
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.profile-header-about {
+  // flex: 1 1 auto;
+  padding: 20px;
+
+  .fa {
+    font-size: 80px;
+    color: white;
+    transition: color 300ms;
+    padding: 20px;
+  }
+  h1 {
+    padding-bottom: 30px;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
+.banner a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.profile-header-about .fa:hover {
+  color: yellow;
+}
+
