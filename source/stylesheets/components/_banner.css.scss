@@ -28,10 +28,14 @@
 
 .banner p:hover {
   font-weight: bold;
+  color: #680b0b;
 }
 
 .main-nav li {
   display: inline;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
