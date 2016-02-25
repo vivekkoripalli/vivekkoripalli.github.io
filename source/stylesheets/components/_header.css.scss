@@ -13,7 +13,7 @@
 }
 
 .profile-header-about {
-  // flex: 1 1 auto;
+  flex: 1 1 auto;
   padding: 20px;
 
   .fa {
@@ -27,6 +27,7 @@
   }
   p {
     text-align: justify;
+    margin: 0px;
   }
 }
 
@@ -37,5 +38,10 @@
 
 .profile-header-about .fa:hover {
   color: yellow;
+}
+
+.main-nav {
+  max-width: 750px;
+  width: 100%;
 }
 

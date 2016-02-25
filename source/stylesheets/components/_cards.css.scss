@@ -17,11 +17,11 @@
   position: relative;
   border-radius: 5px;
   margin-bottom: 20px;
-  box-shadow: 0px 0px 0px 3px rgba(219,210,219,0.75);
-  box-shadow: 0px 0px 0px 3px rgba(219,210,219,0.75);
-  box-shadow: 0px 0px 0px 3px rgba(219,210,219,0.75);
+  box-shadow: 0px 0px 0px 2px rgba(219,210,219,0.75);
+  box-shadow: 0px 0px 0px 2px rgba(219,210,219,0.75);
+  box-shadow: 0px 0px 0px 2px rgba(219,210,219,0.75);
   height: 200px;
-  width: 300px;
+  width: 100%;
 
 }
 
@@ -47,4 +47,22 @@
 
 .projects {
   color: white;
+}
+
+.title {
+ color: #680b0b;
+}
+
+.card-pub{
+  background-size: cover !important;
+  // color: white;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 0px 2px rgba(219,210,219,0.75);
+  box-shadow: 0px 0px 0px 2px rgba(219,210,219,0.75);
+  box-shadow: 0px 0px 0px 2px rgba(219,210,219,0.75);
+  height: 200px;
+  width: 100%;
+  background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.22) 0%, rgba(0, 36, 61, 0.24) 50%), url("https://www.noord-holland.nl/upload/6daf0c60-c1fa-4cd8-8d6c-d78e8f5091ff_natuur-Ilperveld%20460.jpg");
 }
