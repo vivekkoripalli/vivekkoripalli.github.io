@@ -51,6 +51,7 @@
 
 .title {
  color: #680b0b;
+ font-family: 'Vollkorn', serif;
 }
 
 .card-pub{
@@ -65,4 +66,8 @@
   height: 200px;
   width: 100%;
   background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.22) 0%, rgba(0, 36, 61, 0.24) 50%), url("https://www.noord-holland.nl/upload/6daf0c60-c1fa-4cd8-8d6c-d78e8f5091ff_natuur-Ilperveld%20460.jpg");
+}
+
+.projects {
+  font-family: 'Vollkorn', serif;
 }

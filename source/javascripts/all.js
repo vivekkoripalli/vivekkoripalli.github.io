@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
     //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
     offset_opacity = 1200,
     //duration of the top scrolling animation (in ms)
-    scroll_top_duration = 700,
+    scroll_top_duration = 1500,
     //grab the "back to top" link
     $back_to_top = $('.cd-top');
 
@@ -26,8 +26,24 @@ jQuery(document).ready(function($){
     event.preventDefault();
     $('body,html').animate({
       scrollTop: 0 ,
-      }, scroll_top_duration
+    }, scroll_top_duration
     );
   });
 
+
+});
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 2000);
+        return false;
+      }
+    }
+  });
 });
