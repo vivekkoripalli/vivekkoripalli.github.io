@@ -19,8 +19,12 @@
     padding: 20px;
     font-size: 20px
   }
-  h3 {
+  h3, h4 {
     font-family: 'Vollkorn', serif;
+    color: white;
+  }
+  h4 {
+    font-size: 20px;
   }
 }
 
@@ -41,9 +45,21 @@
 
 .line {
   border: solid 1px;
-  width: 100px;
+  width: 120px;
 }
 
 .h4-padding-left {
   padding-left: 27px;
+}
+
+.education {
+  h3, h4 {
+    color: black;
+  }
+}
+
+.work {
+  .line {
+    border: solid white 1px;
+  }
 }

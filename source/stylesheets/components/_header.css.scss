@@ -5,26 +5,23 @@
   position: relative;
 }
 
-.profile-header-infos {
+.profile {
   color: white;
   text-align: center;
   display: flex;
   align-items: center;
 }
 
-.profile-header-about {
+.profile-header-infos {
   flex: 1 1 auto;
   padding: 20px;
+  color: white;
 
   .fa {
     font-size: 80px;
     color: white;
     transition: color 300ms;
     padding: 20px;
-  }
-  h1 {
-    padding-bottom: 30px;
-    font-family: 'Vollkorn', serif;
   }
   p {
     text-align: justify;
@@ -37,6 +34,15 @@
   list-style-type: none;
 }
 
-.profile-header-about .fa:hover {
+.profile-header-infos .fa:hover {
   color: yellow;
+}
+
+.profile-header-about {
+  h1 {
+    padding-bottom: 30px;
+    font-family: 'Vollkorn', serif;
+    color: white;
+  }
+
 }

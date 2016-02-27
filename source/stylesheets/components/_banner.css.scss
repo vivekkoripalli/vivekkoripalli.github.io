@@ -2,13 +2,15 @@
   color: white;
   text-align: center;
   height: 100vh;
-  background-size: cover;
+  // background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   background-position: center 16%;
 
- background-attachment: fixed; //this will let the background image return on other parts of the page.
+ // background-attachment: fixed; //this will let the background image return on other parts of the page.
+ background-attachment: fixed !important;
+background-size: cover !important;
 
  h1 {
   font-size: 50px;
