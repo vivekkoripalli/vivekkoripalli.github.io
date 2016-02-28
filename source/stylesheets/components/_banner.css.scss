@@ -1,16 +1,15 @@
 .banner {
+  background-size: cover;
   color: white;
   text-align: center;
   height: 100vh;
-  // background-size: cover;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   background-position: center 16%;
-
- // background-attachment: fixed; //this will let the background image return on other parts of the page.
- background-attachment: fixed !important;
-background-size: cover !important;
+  // style="background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.22) 0%, rgba(0, 36, 61, 0.24) 50%), url('https:////c2.staticflickr.com/8/7339/8729629120_e9ec908ac9_b.jpg');
+  // background-attachment: fixed; //this will let the background image return on other parts of the page.
 
  h1 {
   font-size: 50px;
@@ -37,7 +36,29 @@ p {
 
 .main-nav {
   width: 850px;
- li {
-  display: inline;
+  li {
+    display: inline;
+  }
 }
+
+.backstretch {
+  left: auto !important;
+}
+.backstretch:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.wrapper-img{
+  height: 20vh;
+}
+
+.wrapper-img {
+  height: 100%;
 }
