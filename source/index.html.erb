@@ -8,17 +8,33 @@ title: Melchior Rutte
       <h1>Melchior Rutte</h1>
       <div class="row">
 
-        <div class="col-sm-8">
+        <div class="col-sm-12">
 
-          <nav class="main-nav">
-            <ul>
-              <li><a class="scroll-down" href="#about"><p>About</p></a></li>
-              <li><a class="scroll-down" href="#resume"><p>Resumé</p></a></li>
-              <li><a class="scroll-down" href="#skills"><p>Skills</p></a></li>
-              <li><a class="scroll-down" href="#skills"><p>Projects</p></a></li>
-              <li><a class="scroll-down" href="#publications"><p>Publications</p></a></li>
-            </ul>
-          </nav>
+          <div class="main-nav">
+            <div class="nav hidden-xs">
+              <ul>
+                <li><a class="scroll-down" href="#about"><p>About</p></a></li>
+                <li><a class="scroll-down" href="#resume"><p>Resumé</p></a></li>
+                <li><a class="scroll-down" href="#skills"><p>Skills</p></a></li>
+                <li><a class="scroll-down" href="#projects"><p>Projects</p></a></li>
+                <li><a class="scroll-down" href="#publications"><p>Publications</p></a></li>
+              </ul>
+            </div>
+
+            <!-- Dropdown appearing on mobile only -->
+            <div class="navbar-wagon-item hidden-sm hidden-md hidden-lg">
+              <div class="dropdown">
+                <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+                <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#resume">Resumé</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#publications">Publications</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
