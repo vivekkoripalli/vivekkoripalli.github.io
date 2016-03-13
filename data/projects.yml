@@ -1,13 +1,14 @@
 seb:
-  name:
+  name: BoatBnB
   picture: http://i66.tinypic.com/2ihugp3.png
   url: https://boatbnb.herokuapp.com/
+  description: BoatBnB is a web application where people could rent out their boat or rent someone's boat.
 anne:
-  name: Coming soon
+  name:
   picture: http://placehold.it/300x200
   url:
 melchior:
-  name: Coming soon
+  name:
   picture: http://placehold.it/300x200
   url:
 
