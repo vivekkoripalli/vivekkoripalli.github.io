@@ -1,10 +1,13 @@
 seb:
-  name: Coming soon
-  picture: http://placehold.it/300x200
+  name:
+  picture: http://i66.tinypic.com/2ihugp3.png
+  url: https://boatbnb.herokuapp.com/
 anne:
   name: Coming soon
   picture: http://placehold.it/300x200
+  url:
 melchior:
   name: Coming soon
   picture: http://placehold.it/300x200
+  url:
 
