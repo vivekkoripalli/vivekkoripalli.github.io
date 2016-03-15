@@ -43,6 +43,10 @@ p {
 
 .backstretch {
   left: auto !important;
+  background-image: url(https:////c2.staticflickr.com/8/7339/8729629120_e9ec908ac9_b.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
 }
 .backstretch:after {
   content: '';

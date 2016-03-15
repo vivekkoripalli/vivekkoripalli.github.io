@@ -13,7 +13,8 @@
  -moz-box-shadow: 1px 1px 2px #e6e6e6;
  box-shadow: 1px 1px 2px #e6e6e6;
  cursor: default;
- background: cover !important;
+ background-size: cover !important;
+ background-position: center center;
 }
 
 .view .mask,.view .content {
