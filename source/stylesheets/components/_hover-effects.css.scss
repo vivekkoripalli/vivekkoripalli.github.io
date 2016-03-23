@@ -4,7 +4,7 @@
  width: 340px;
  height: 220px;
  margin: 10px;
- float: left;
+ margin: auto;
  border: 2px solid #fff;
  overflow: hidden;
  position: relative;
@@ -16,6 +16,13 @@
  background-size: cover !important;
  background-position: center center;
 }
+
+@media(max-width: $screen-md) {
+  .view {
+    margin-bottom: 20px;
+  }
+}
+
 
 .view .mask,.view .content {
  width: 340px;
