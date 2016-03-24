@@ -4,11 +4,8 @@ seb:
   url: https://boatbnb.herokuapp.com/
   description: BoatBnB is a web application where people could rent out their boat or rent someone's boat.
 anne:
-  name:
-  picture: http://placehold.it/300x200
+  name: Tjenga
+  picture: http://i65.tinypic.com/2ioj1g.png
   url:
-melchior:
-  name:
-  picture: http://placehold.it/300x200
-  url:
+  description: Tjenga is a platform where clients and developers can meet.
 
