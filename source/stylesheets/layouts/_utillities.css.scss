@@ -17,3 +17,10 @@
 .bg-facebook {
   background: #3b5998;
 }
+
+.container {
+  &.is-small {
+    max-width: 850px;
+  }
+
+}

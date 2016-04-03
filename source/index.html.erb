@@ -42,38 +42,37 @@ title: Melchior Rutte
 </div>
 
 <div style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; z-index: -999999; position: fixed;" class="backstretch">
- </div>
+</div>
 
 
-  <!-- Avatar and about -->
-  <div class="profile-header-wrapper">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="profile-header-about text-center">
-            <a name="about"></a>
-            <h1>About</h1>
-          </div>
-          <div class="profile">
+<!-- Avatar and about -->
+<div class="profile-header-wrapper">
+  <div class="container is-small background-black">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="profile-header-about text-center">
+          <a name="about"></a>
+          <h3>About</h3>
+        </div>
+        <div class="profile">
 
-            <div class="profile-header-infos">
-              <div class="row">
-                <div class="col-sm-4">
+          <div class="profile-header-infos">
+            <div class="row">
+              <div class="col-sm-4">
 
-                  <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/088/20d/3c60c63.jpg" alt="" class="avatar">
-                </div>
-                <div class="col-sm-6">
+                <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/088/20d/3c60c63.jpg" alt="" class="avatar">
+              </div>
+              <div class="col-sm-6">
 
-                  <p>
-                    At the moment I am following a bootcamp at  <strong><a href= "https://www.lewagon.com/">Le Wagon</a></strong> in Amsterdam, to become a full-stack web application developer.
+                <p>
+                  At the moment I am following a bootcamp at  <strong><a href= "https://www.lewagon.com/">Le Wagon</a></strong> in Amsterdam, to become a full-stack web application developer.
 
-                    In November 2014 I graduated for the Master Biology at Radboud University, Nijmegen. During these two years I finished two internships with success and I followed different ecological courses. I gained knowledge regarding biogeochemical processes in soil and water and the possibilities to restore or manage nature areas, rivers/floodplains.
+                  In November 2014 I graduated for the Master Biology at Radboud University, Nijmegen. During these two years I finished two internships with success and I followed different ecological courses. I gained knowledge regarding biogeochemical processes in soil and water and the possibilities to restore or manage nature areas, rivers/floodplains.
 
-                  </p>
-                  <a href="https://github.com/FuturesBSSA">
-                    <i class="fa fa-github"></i>
-                  </a>
-                </div>
+                </p>
+                <a href="https://github.com/FuturesBSSA">
+                  <i class="fa fa-github"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -82,15 +81,9 @@ title: Melchior Rutte
     </div>
   </div>
 
-  <div class="wrapper-img padded">
-    <div class="container">
-    </div>
-  </div>
-
-
   <!-- Skills -->
-  <div class="wrapper-blackish padded">
-    <div class="container">
+  <div class="wrapper">
+    <div class="container is-small background-yellow">
       <div class="text-center">
         <a name="skills"></a>
         <h3 class="title" >Developer Skills</h3>
@@ -159,22 +152,14 @@ title: Melchior Rutte
   </div>
 
 
-
-
-  <div class="wrapper-img padded">
-    <div class="container">
-    </div>
-  </div>
-
-
-  <div class="wrapper-work">
-    <div class="container">
+  <div class="wrapper">
+    <div class="container is-small background-black">
+      <h3 class= "text-center">
+        <i class="fa fa-briefcase"> Work Experience</i>
+      </h3>
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-offset-1">
           <div class="box work">
-            <h3 class= "text-center">
-              <i class="fa fa-briefcase"> Work Experience</i>
-            </h3>
 
             <div class="row">
               <div class="col-xs-12 col-sm-3 col-sm-offset-2">
@@ -222,22 +207,18 @@ title: Melchior Rutte
         </div>
       </div>
     </div>
-  </div>
 
-
-  <!-- Resumé -->
-  <div class="wrapper">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-8 col-sm-offset-1">
-          <div class="profile-header-education text-center">
-            <a name="resume"></a>
-            <!-- <h1>Resumé</h1> -->
-          </div>
-          <div class="box education">
-           <h3 class= "text-center">
-            <i class="fa fa-graduation-cap"> Education</i>
-          </h3>
+    <!-- Resumé -->
+    <div class="container is-small background-black">
+     <h3 class= "text-center">
+      <i class="fa fa-graduation-cap"> Education</i>
+    </h3>
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-1">
+        <div class="profile-header-education text-center">
+          <a name="resume"></a>
+        </div>
+        <div class="box education">
           <div class="row">
             <div class="col-xs-12 col-sm-3 col-sm-offset-2">
               <h4 class="h4-padding-left">2016</h4>
@@ -276,48 +257,48 @@ title: Melchior Rutte
   </div>
 </div>
 
-<div class="wrapper-img padded">
-  <div class="container">
-  </div>
-</div>
 
-<div class="wrapper-black padded">
-  <div class="container">
-    <div class="projects text-center"><h3>Projects</h3></div>
-    <a name="projects"></a>
-    <div class="row">
-      <% data.projects.each do |owner, project| %>
-      <div class="col-xs-12 col-sm-6">
-      <div class="view view-first" style="background-image: url(<%= image_path project.picture %>);">
-         <div class="mask">
-          <h2><%= project.name %></h2>
-          <p>
-            <%= project.description %>
-          </p>
-          <%= link_to "Read more", project.url, class: "info" %>
+<div class="wrapper">
+  <div class="container is-small background-yellow">
+
+    <div class="projects"><h3 class="text-center">Projects</h3>
+      <a name="projects"></a>
+      <div class="row">
+        <% data.projects.each do |owner, project| %>
+        <div class="col-xs-12 col-sm-6">
+          <div class="view view-first" style="background-image: url(<%= image_path project.picture %>);">
+           <div class="mask">
+            <h2><%= project.name %></h2>
+            <p>
+              <%= project.description %>
+            </p>
+            <%= link_to "Read more", project.url, class: "info" %>
+          </div>
         </div>
       </div>
+      <% end %>
     </div>
-    <% end %>
   </div>
 </div>
 </div>
 
-<div class="wrapper-img2 padded">
-  <div class="container">
-    <div class="row">
-      <div class="col-12-xs col-sm-4 col-sm-offset-4">
-        <div class="text-center">
-          <h3 class="title">Publications</h3>
-        </div>
-        <a name="publications"></a>
-        <div class="view view-first", style="background-image: url('http://i66.tinypic.com/2s7vo1u.png')">
-         <div class="mask">
-          <h2>Aquatic Ecology</h2>
-          <p>
-            The ecological effects of water level fluctuation and phosphate enrichment in mesotrophic peatlands are strongly mediated by soil chemistry
-          </p>
-          <a href="http://www.sciencedirect.com/science/article/pii/S0925857415302160" class="info">Read More</a>
+<div class="wrapper">
+  <div class="container is-small background-black">
+    <div class="publications">
+      <div class="text-center">
+        <h3 class="title">Publications</h3>
+      </div>
+      <div class="row">
+        <div class="col-12-xs col-sm-6 col-sm-offset-3">
+          <a name="publications"></a>
+          <div class="view view-first", style="background-image: url('http://i66.tinypic.com/2s7vo1u.png')">
+           <div class="mask">
+            <h2>Aquatic Ecology</h2>
+            <p>
+              The ecological effects of water level fluctuation and phosphate enrichment in mesotrophic peatlands are strongly mediated by soil chemistry
+            </p>
+            <a href="http://www.sciencedirect.com/science/article/pii/S0925857415302160" class="info">Read More</a>
+          </div>
         </div>
       </div>
     </div>
