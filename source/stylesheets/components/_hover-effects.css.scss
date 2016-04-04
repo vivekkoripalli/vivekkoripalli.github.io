@@ -1,7 +1,7 @@
 
 
 .view {
- width: 300px;
+ max-width: 300px;
  height: 180px;
  margin: 10px;
  margin: auto;
@@ -25,7 +25,7 @@
 
 
 .view .mask,.view .content {
- width: 300px;
+ max-width: 300px;
  height: 180px;
  position: absolute;
  overflow: hidden;
