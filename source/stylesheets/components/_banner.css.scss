@@ -12,23 +12,25 @@
   // style="background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.22) 0%, rgba(0, 36, 61, 0.24) 50%), url('https:////c2.staticflickr.com/8/7339/8729629120_e9ec908ac9_b.jpg');
   // background-attachment: fixed; //this will let the background image return on other parts of the page.
 
- h1 {
-  font-size: 50px;
-  font-weight: bold;
-  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-  padding-bottom: 30px;
-  font-family: 'Vollkorn', serif;
-}
-p {
-  font-size: 20px;
-  font-weight: lighter;
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 50px;
-  display: inline;
-  padding-right: 50px;
-  transition: color 300ms;
-  width: 950px;
-}
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    font-family: 'Vollkorn', serif;
+  }
+  h5 {
+    margin-bottom: 18px;
+  }
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 50px;
+    display: inline;
+    padding-right: 50px;
+    transition: color 300ms;
+    width: 950px;
+  }
 }
 
 .banner p:hover {
@@ -43,7 +45,12 @@ p {
 
 .backstretch {
   left: auto !important;
-  background-image: url(https:////c2.staticflickr.com/8/7339/8729629120_e9ec908ac9_b.jpg);
+  //autumn:
+  // background-image: url(https:////c2.staticflickr.com/8/7339/8729629120_e9ec908ac9_b.jpg);
+  // variant sundown:
+  // background-image: url("http://i68.tinypic.com/34o55cx.jpg");
+  //summer:
+  background-image: url("http://i63.tinypic.com/oqbww2.jpg");
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -55,7 +62,7 @@ p {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   z-index: 100;
 }
 
