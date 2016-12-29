@@ -1,16 +1,16 @@
-seb:
-  name: BoatBnB
-  picture: http://i66.tinypic.com/2ihugp3.png
-  url: https://boatbnb.herokuapp.com/
-  description: BoatBnB is a web application where people could rent out their boat or rent someone's boat.
+# seb:
+#   name: DoctorFinder
+#   picture: http://i63.tinypic.com/hte6bn.png
+#   url: http://www.doctorfinder.online
+#   description: DoctorFinder is a web application to help the Syrian people to find a doctor and seek an medical advice.
 anne:
-  name: Tjenga
-  picture: http://i65.tinypic.com/fw2c6c.png
-  url: http://www.Tjenga.com
-  description: A platform where awesome clients meet kick-ass developers.
-zerra:
-  name: Zerra
-  picture: https://zerra.herokuapp.com/assets/Hair_in_the_Sunset_Light_1920x1080-183a3e330e942f204ba1fbffbc5033a9d1fda412112a4782c25676b7b36f3c38.jpg
-  url: http://zerra.herokuapp.com
-  description: Zerra is a online recipebook, where users can upload their own recipes.
+  name: DoctorFinder
+  picture: http://i63.tinypic.com/hte6bn.png
+  url: http://www.doctorfinder.online
+  description: DoctorFinder is a web application to help the Syrian people to find a doctor and seek an medical advice.
+# zerra:
+#   name: Zerra
+#   picture: https://zerra.herokuapp.com/assets/Hair_in_the_Sunset_Light_1920x1080-183a3e330e942f204ba1fbffbc5033a9d1fda412112a4782c25676b7b36f3c38.jpg
+#   url: http://zerra.herokuapp.com
+#   description: Zerra is a online recipebook, where users can upload their own recipes.
 

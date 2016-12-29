@@ -50,10 +50,19 @@
   // variant sundown:
   // background-image: url("http://i68.tinypic.com/34o55cx.jpg");
   //summer:
-  background-image: url("http://i63.tinypic.com/oqbww2.jpg");
+  background-image: url("http://i65.tinypic.com/izrmoj.jpg");
   height: 100%;
   width: 100%;
   background-size: cover;
+}
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
 }
 .backstretch:after {
   content: '';
